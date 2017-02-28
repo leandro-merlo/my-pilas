@@ -1,0 +1,51 @@
+.cabecalho {
+	border-bottom: 1px solid #ccc;
+	height: 60px;
+	background-color: #FFF;
+	line-height: 60px;
+}
+
+.cabecalho--home {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.cabecalho > nav >  img {
+	margin-top: -4px;
+}
+
+.planos {
+	padding: 80px 0;
+}
+
+@media(max-width: 767px) {
+	.planos .row > div:not(:last-of-type){
+		margin-bottom: 40px;
+	}
+}
+
+
+.chamada-wrapper {
+	padding: 80px 0;
+	background-color: #7ab55c;
+	margin-top: 60px;
+}
+
+.depoimento-wrapper {
+	padding: 80px 0;
+	background-color: #e7e7e7;	
+}
+
+.rodape-wrapper {
+	padding: 40px 0;
+	background-color: #484848;
+	color: #FFF;
+	text-align: center;
+}
+
+.assinatura-wrapper {
+	padding: 40px 0;
+}
